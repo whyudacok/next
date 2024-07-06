@@ -14,7 +14,7 @@ export async function getServerSideProps(context) {
     },
   };
 }
-
+ 
 const AnimePage = ({ anime }) => {
   const router = useRouter();
 
