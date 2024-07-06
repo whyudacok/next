@@ -4,7 +4,7 @@ export interface Article {
   title: string;
   img: string;
 }
-
+ 
 export default function HomePage({ articles }: { articles: Article[] }) {
   return (
     <div className="flex flex-col">
